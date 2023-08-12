@@ -20,8 +20,8 @@ const binarySearch = (list, item) => {
     return null;
 };
 
-// const myList = [12, 15, 89, 87, 65, 35];
-const myList = [1 ,2 ,5 ,6 ,8 ,98 ,99 ,101 ,102 ,451 ,452 ,784 ,998];
+
+const myList = [1 ,2 ,5 ,6 ,8 ,98 ,99 ,101 ,102 ,451 ,452 ,784 ,998]; // the list should be sorted
 
 console.log(binarySearch(myList, 784)); // 11
 console.log(binarySearch(myList, 54654)); //null
